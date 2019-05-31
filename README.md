@@ -7,7 +7,9 @@
 进入目录后运行：
 
 ```bash
-npm install -g cnpm 
+# 说明1：使用淘宝镜像下载cnpm
+# 说明2：Mac 可能需要加sudo
+npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm insatll
 cnpm run dev
 ```
