@@ -1,0 +1,39 @@
+/*
+报错：Uncaught Error: Module parse failed: Unexpected token
+引入：cnpm install style-loader css-loader -D
+// webpack.config.js
+module.exports = {
+    ...
+    module: { // 第三方模块的配置规则
+        rules: [
+            ...
+            {test: /\.css$/, use: ['style-loader', 'css-loader']} // css 配置
+        ]
+    },
+    resolve: {
+        // 自动补全后缀配置，此处默认[".js", ".json"]
+        extensions: [... ".css"],
+    }
+};
+
+ */
+.title {
+    text-align: center;
+    font-size: 22px;
+}
+
+.row {
+    border: 1px dashed #ccc;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/*
+:global: 表示全局，那么不会被模块化
+:local: 默认
+ */
+
+:global(.all){
+    color: #ccc423;
+}
