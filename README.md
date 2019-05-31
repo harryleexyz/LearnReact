@@ -2,7 +2,7 @@
 
 视频：[最全的react视频【黑马程序员】](https://www.bilibili.com/video/av37668737)
 
-笔记：[Github](https://github.com/harryleexyz/LearnReact/base/README.md)
+笔记：[Github](https://github.com/harryleexyz/LearnReact/blob/master/base/README.md)
 
 进入目录后运行：
 
